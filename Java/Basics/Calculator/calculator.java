@@ -2,7 +2,8 @@ import java.util.Scanner;
 public class calculator{
 	public static void main(string[] args){
 		double FirstAddition, SecondAddition;
-    String operation;
+    		String operation;
+		System.out.println("The Worst Java Calculator");
 		Scanner input = new Scanner(System.in);
 		System.out.println("First number to Be added");
 		FirstAddition = input.nextDouble();
