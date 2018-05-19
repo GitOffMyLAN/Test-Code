@@ -13,5 +13,5 @@ parser.add_option("-e", "--encrypt", dest="encrypt",
 parser.add_option("-d", "--decrypt", dest="decrypt",
                   help="To set a file to decrypt", metavar="")
 (options, args) = parser.parse_args()
-print(stringToCharcterArray("Hello"))
+print(stringToCharcterArray("kek"))
 input = "Key:"
